@@ -15,4 +15,7 @@ Saves you time when you just want a quick start.
 Purpose: Installs the bcrypt library from npm.
 What bcrypt does:
 A hashing library used to securely store passwords (instead of saving plain text).
+
 It adds random “salt” to make hashes harder to crack.
+
+4) npm i prompt-sync ( from taking input)
