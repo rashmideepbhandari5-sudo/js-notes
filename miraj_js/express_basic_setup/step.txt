@@ -1,0 +1,25 @@
+npm init -y                    (terminal ma)
+npm i express                   ("")
+
+create index.js
+require ("express")
+inisilized express expression using express()
+listen to the port with callback
+
+
+npm i -D nodemon              (terminal ma)
+package.json ma gayara script ma "dev":"nodemon index.js"
+ani terminal ma npm run dev garne
+
+
+5 method (get,put,post,patch,delete)lai postman ma halne
+
+dotenv=to hide sensative information
+instal dotenv in termal by writing (npm i dotenv)
+CREATE .env file
+inside .env file  (port=3000)
+go to index.js,at the very top>> write  require('dotenv').config()
+const port = process.env.PORT
+app.listen(port, () => {
+    console.log(`app is running on http://localhost:${port}/`);
+});
