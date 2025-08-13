@@ -1,0 +1,19 @@
+First, we create separate route files for each specific module (e.g., user.routes.js and product.routes.js) inside the modules folder.
+
+Next, we import and connect both user.routes.js and product.routes.js to a central file located in routes/index.js.
+
+Finally, we connect routes/index.js (which acts as the main router) to the main index.js file at the project root, which serves as the application’s entry point.
+
+project-root/
+│
+├── index.js                # Main entry point
+│
+├── routes/
+│   └── index.js            # Central router file
+│
+└── modules/
+    ├── user/
+    │   └── user.routes.js  # User module routes
+    │
+    └── product/
+        └── product.routes.js # Product module routes
